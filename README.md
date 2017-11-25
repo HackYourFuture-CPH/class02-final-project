@@ -13,9 +13,9 @@ The outcome of this project is a web application, that will consist of:
 ## Methodology
 
 The project will be built over multiple [iterations](https://en.wikipedia.org/wiki/Iterative_design). A goal of
-iterative design is to have a functional application at each stage, adding features incrementally. The application
-should not include visible, partially implemented features. Each iteration should be complete, and able to show as
-part of a portfolio piece.
+iterative design is to have a functional application at each stage, adding features incrementally. Each iteration should
+end with a complete, functional application, that you are able to show as a portfolio piece. As we move through
+iterations, we add features to the application.
 
 Iterations are a staple of modern software development.
 
