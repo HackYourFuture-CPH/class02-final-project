@@ -6,7 +6,7 @@ When I want to buy something, I can find sustainable alternatives, so that I can
 When I’ve found alternatives, I can compare their relative environmental impacts to one another, so that I can understand which is the best choice.
 
 ## Data Source
-A JSON file including sustainability information will be included in this repository.
+[This JSON file](./data.json) including sustainability information.
 
 ## Week 1
 Produce a data model and SQL schemas based on the features listed above.
