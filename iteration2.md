@@ -19,10 +19,10 @@ application will query the API based on the data model you introduced in the fir
  product API? What problems does the API pose? Document your thought processes around this. Integrating with APIs is
 hard work and these lessons are great resources for interviews.
 - A proof-of-concept implementation of your integration.
-- Get a Google Maps API key and integrate Google Maps into your React application.
 
 ## Week 2
-- Implemented integration with product API and
+- Implemented integration with product API.
+- Able to view products related to categories found last week.
 
 ## Outcome
 An interactive application for exploring alternatives and products that are near me.
