@@ -1,4 +1,4 @@
-# Iteration 2
+# Iteration 2 - APIs and integrations
 
 ## Stories
 When I have decided to get an alternative, I can find which alternative products are sold locally, so that I know what
@@ -10,12 +10,19 @@ give up and buy whatever is most convenient.
 When I know which places I can buy the product, I can explore which place is most convenient for me to purchase the good
 from, so that I am more likely to make the sustainable choice.
 
+## Data Source
+An external product listing API that includes product and store location information will be provided. Your Node.js
+application will query the API based on the data model you introduced in the first iteration.
+
 ## Week 1
-- A revised data model based on the requirements above.
-- New REST APIs for serving the data needed for the features described above.
+- Devise a scheme for querying the API using your existing API. How will you map from your data model to the
+ product API? What problems does the API pose? Document your thought processes around this. Integrating with APIs is
+hard work and these lessons are great resources for interviews.
+- A proof-of-concept implementation of your integration.
+- Get a Google Maps API key and integrate Google Maps into your React application.
 
 ## Week 2
- - Initial implementation of Google Maps integration for exploring alternative products.
+- Implemented integration with product API and
 
 ## Outcome
 An interactive application for exploring alternatives and products that are near me.
