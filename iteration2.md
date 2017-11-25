@@ -10,13 +10,12 @@ give up and buy whatever is most convenient.
 When I know which places I can buy the product, I can explore which place is most convenient for me to purchase the good
 from, so that I am more likely to make the sustainable choice.
 
-## Homework Week 1
+## Week 1
 - A revised data model based on the requirements above.
 - New REST APIs for serving the data needed for the features described above.
 
-## Homework for start of class Week 2
+## Week 2
  - Initial implementation of Google Maps integration for exploring alternative products.
 
 ## Outcome
-
 An interactive application for exploring alternatives and products that are near me.
