@@ -1,114 +1,197 @@
-[
-    {
+[{
         "tags": ["fruit", "sweet"],
         "category": "Apple",
         "metrics": [{
-            "per": "1 kg",
-            "use": "822 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 822,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["fruit", "sweet"],
         "category": "Banana",
         "metrics": [{
-            "per": "1 kg",
-            "use": "790 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 790,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["meat", "protein"],
         "category": "Beef",
         "metrics": [{
-            "per": "1 kg",
-            "use": "15,415 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 15415,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["alcohol", "beverage"],
         "category": "Beer",
         "metrics": [{
-            "per": "1 × 250ml glass",
-            "use": "74 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "250ml glass"
+            },
+            "use": {
+                "amount": 74,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["carbohydrate"],
         "category": "Bread",
         "metrics": [{
-            "per": "1 kg",
-            "use": "1,608 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 1608,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["fat"],
         "category": "Butter",
         "metrics": [{
-            "per": "1 kg",
-            "use": "5,553 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 5553,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["carbohydrate", "vegetable"],
         "category": "Cabbage",
         "metrics": [{
-            "per": "1 kg",
-            "use": "237 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 237,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["fat", "protein"],
         "category": "Cheese",
         "metrics": [{
-            "per": "1 kg",
-            "use": "3,178 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 3178,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["protein", "meat"],
         "category": "Chicken meat",
         "metrics": [{
-            "per": "1 kg",
-            "use": "4,325 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 4325,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["sweet", "candy"],
         "category": "Chocolate",
         "metrics": [{
-            "per": "1 kg",
-            "use": "17,196 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 17196,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["protein"],
         "category": "Egg",
         "metrics": [{
-            "per": "1",
-            "use": "196 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "egg"
+            },
+            "use": {
+                "amount": 196,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["beverage"],
         "category": "Milk",
         "metrics": [{
-            "per": "1 × 250ml glass",
-            "use": "255 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "250ml glass"
+            },
+            "use": {
+                "amount": 255,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["fat"],
         "category": "Olives",
         "metrics": [{
-            "per": "1 kg",
-            "use": "3,025 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 3025,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["carbohydrate"],
         "category": "Pasta (dry)",
         "metrics": [{
-            "per": "1 kg",
-            "use": "1,849 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 1849,
+                "unit": "litres water"
+            }
         }]
     },
     {
@@ -116,63 +199,108 @@
         "category": "Pizza",
         "metrics": [{
             "per": "1 unit",
-            "use": "1,239 litres water"
+            "use": {
+                "amount": 1239,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["meat", "protein"],
         "category": "Pork",
         "metrics": [{
-            "per": "1 kg",
-            "use": "5,988 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 5988,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["carbohydrate"],
         "category": "Potatoes",
         "metrics": [{
-            "per": "1 kg",
-            "use": "287 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 287,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["carbohydrate"],
         "category": "Rice",
         "metrics": [{
-            "per": "1 kg",
-            "use": "2,497 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 2497,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["meat", "protein"],
         "category": "Sheep Meat",
         "metrics": [{
-            "per": "1 kg",
-            "use": "10,412 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 10412,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["beverage"],
         "category": "Tea",
         "metrics": [{
-            "per": "1 × 250 ml cup",
-            "use": "27 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "250ml glass"
+            },
+            "use": {
+                "amount": 27,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["vegetable"],
         "category": "Tomato",
         "metrics": [{
-            "per": "1 kg",
-            "use": "214 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "kg"
+            },
+            "use": {
+                "amount": 214,
+                "unit": "litres water"
+            }
         }]
     },
     {
         "tags": ["alcohol", "beverage"],
         "category": "Wine",
         "metrics": [{
-            "per": "1 x 250ml glass",
-            "use": "109 litres water"
+            "per": {
+                "amount": 1,
+                "unit": "250ml glass"
+            },
+            "use": {
+                "amount": 109,
+                "unit": "litres water"
+            }
         }]
     }
 ]
