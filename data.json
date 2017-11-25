@@ -1,0 +1,178 @@
+[
+    {
+        "tags": ["fruit", "sweet"],
+        "category": "Apple",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "822 litres water"
+        }]
+    },
+    {
+        "tags": ["fruit", "sweet"],
+        "category": "Banana",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "790 litres water"
+        }]
+    },
+    {
+        "tags": ["meat", "protein"],
+        "category": "Beef",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "15,415 litres water"
+        }]
+    },
+    {
+        "tags": ["alcohol", "beverage"],
+        "category": "Beer",
+        "metrics": [{
+            "per": "1 × 250ml glass",
+            "use": "74 litres water"
+        }]
+    },
+    {
+        "tags": ["carbohydrate"],
+        "category": "Bread",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "1,608 litres water"
+        }]
+    },
+    {
+        "tags": ["fat"],
+        "category": "Butter",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "5,553 litres water"
+        }]
+    },
+    {
+        "tags": ["carbohydrate", "vegetable"],
+        "category": "Cabbage",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "237 litres water"
+        }]
+    },
+    {
+        "tags": ["fat", "protein"],
+        "category": "Cheese",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "3,178 litres water"
+        }]
+    },
+    {
+        "tags": ["protein", "meat"],
+        "category": "Chicken meat",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "4,325 litres water"
+        }]
+    },
+    {
+        "tags": ["sweet", "candy"],
+        "category": "Chocolate",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "17,196 litres water"
+        }]
+    },
+    {
+        "tags": ["protein"],
+        "category": "Egg",
+        "metrics": [{
+            "per": "1",
+            "use": "196 litres water"
+        }]
+    },
+    {
+        "tags": ["beverage"],
+        "category": "Milk",
+        "metrics": [{
+            "per": "1 × 250ml glass",
+            "use": "255 litres water"
+        }]
+    },
+    {
+        "tags": ["fat"],
+        "category": "Olives",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "3,025 litres water"
+        }]
+    },
+    {
+        "tags": ["carbohydrate"],
+        "category": "Pasta (dry)",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "1,849 litres water"
+        }]
+    },
+    {
+        "tags": ["carbohydrate", "protein"],
+        "category": "Pizza",
+        "metrics": [{
+            "per": "1 unit",
+            "use": "1,239 litres water"
+        }]
+    },
+    {
+        "tags": ["meat", "protein"],
+        "category": "Pork",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "5,988 litres water"
+        }]
+    },
+    {
+        "tags": ["carbohydrate"],
+        "category": "Potatoes",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "287 litres water"
+        }]
+    },
+    {
+        "tags": ["carbohydrate"],
+        "category": "Rice",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "2,497 litres water"
+        }]
+    },
+    {
+        "tags": ["meat", "protein"],
+        "category": "Sheep Meat",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "10,412 litres water"
+        }]
+    },
+    {
+        "tags": ["beverage"],
+        "category": "Tea",
+        "metrics": [{
+            "per": "1 × 250 ml cup",
+            "use": "27 litres water"
+        }]
+    },
+    {
+        "tags": ["vegetable"],
+        "category": "Tomato",
+        "metrics": [{
+            "per": "1 kg",
+            "use": "214 litres water"
+        }]
+    },
+    {
+        "tags": ["alcohol", "beverage"],
+        "category": "Wine",
+        "metrics": [{
+            "per": "1 x 250ml glass",
+            "use": "109 litres water"
+        }]
+    }
+]
