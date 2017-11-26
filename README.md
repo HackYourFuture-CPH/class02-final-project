@@ -29,5 +29,5 @@ You will also receive high-level wireframes
 ## Iterations
 
 1. [Viewing sustainable alternatives](./iteration1.md).
-2. [Finding products near you](./iteration2.md).
-3. [Users can comment on products](./iteration3.md).
+2. [Finding products based on categories](./iteration2.md).
+3. [Google Maps integration](./iteration3.md).
