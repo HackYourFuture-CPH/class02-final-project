@@ -15,7 +15,7 @@ An external product listing API that includes product and store location informa
 application will query the API based on the data model you introduced in the first iteration.
 
 ## Week 1
-- Devise a scheme for querying the API using your existing API. How will you map from your data model to the
+- Devise a scheme for querying the API using your existing data model. How will you map from your data model to the
  product API? What problems does the API pose? Document your thought processes around this. Integrating with APIs is
 hard work and these lessons are great resources for interviews.
 - A proof-of-concept implementation of your integration.
