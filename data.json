@@ -198,7 +198,10 @@
         "tags": ["carbohydrate", "protein"],
         "category": "Pizza",
         "metrics": [{
-            "per": "1 unit",
+            "per": {
+                    "amount":1,
+                    "unit": "pizza"
+            },
             "use": {
                 "amount": 1239,
                 "unit": "litres water"
