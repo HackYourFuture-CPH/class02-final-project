@@ -1,8 +1,8 @@
 /* jshint esversion: 6 */
 var gettextParser = require('gettext-parser');
 
-// naive translation from po file. read the entire file and return the first entry. every time ;)
-const translate = (tag) => {
+// this is a minimal example of how to do translation.
+module.exports = function translate (tag) {
     var input = require('fs').readFileSync('./translations/da-DK.po');
     var po = gettextParser.po.parse(input, "UTF-8");
     var translation = po.translations[''][tag.toLowerCase()];
@@ -11,8 +11,10 @@ const translate = (tag) => {
     } else {
         return tag;
     }
-};
+}
 
-//console.log(translate('Butter'));
-//console.log(translate('Beer'));
+/* example usage from another file:
 
+  var translate = require('./translate.js');
+  console.log(translate('Butter'));
+*/
