@@ -4,12 +4,13 @@ require('dotenv').config();
 /*
  A NodeJS wrapper for the Shopgun API.
 
- NOTE: You will need a shopgun account a .env settings file for this to work
+ NOTE: You will need a shopgun account a .env settings file for this to work (read more here : http://docs.api.etilbudsavis.dk/ )
 
  Your .env file should expose the following:
 
  API_KEY=
  API_SECRET=
+
 
  Your .env file could be called .env . You can test your Shopgun account works by running:
 
