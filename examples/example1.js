@@ -15,12 +15,12 @@ shopgun.getToken().then(function(response) {
 
     // search nearby offers
     shopgun.offerSearch(token, {
-        query:"æble",
+        query:"apple",
         r_lat: 55.676098,
         r_lon: 12.568337
        })
        .then(function (response) {
-        console.log("data:",response.data);
+        console.log("data:",response.data[1]);
     }).catch(function (response) {
         console.log("error:", response);
         });
@@ -31,7 +31,7 @@ shopgun.getToken().then(function(response) {
         r_lon: 12.568337,
         dealer_ids: ['11deC']  // NOTE: you can find the dealer_id in the offerSearch result
     }).then(function(response) {
-        console.log("data:", response.data);
+        console.log("data:", response.data[1]);
     });
 
 }).catch(function (err) {
