@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: #fcfdff;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 5px;
+  line-height: 50px;
+
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+}
+.logo {
+  width: 20%;
+  height: 100%;
+  margin: 0 auto;
+  /*background-image: url("../img/logo.png");
+  background-size: cover;*/
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.logo>img {
+  width: 100%;
+  height: 115px;
+}
+.container {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.searchBox {
+  width: 50%;
+  height: 30px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.searchBox>.btn {
+  width: 10%;
+  border-radius: 0 3px 3px 0;
+}
+.form-control {
+  width: 90%;
+  float: left;
+  color: #ddd !important;
+  border-radius: 3px 0 0 3px;
+  background: rgb(125,126,125);
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+}
+.userLog {
+  width: 15%;
+  height: 40px;
+  line-height: 26px;
+  padding: 5px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+.userLog>li {
+  display: inline;
+  list-style: none;
+  margin-right: 50px;
+  cursor: pointer;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.userLog>li:hover {
+  color: rgb(62, 255, 88);
+}
+
+.actions {
+  width: 20%;
+  height: 30px;
+  position: absolute;
+  left: 10%;
+  top: 1px;
+  text-align: center;
+}
+.actions>li {
+  display: inline;
+  list-style: none;
+  width: 80px;
+  padding: 7px 15px 7px 15px;;
+  background-color: rgb(190, 0, 0);
+  color: #fff;
+  margin: -2px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.menuBar {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  line-height: 40px;
+  
+}
+.menuBar>ul {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+.menuBar>ul>li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+  padding: 10px;
+  width: 15%; 
+  cursor: pointer;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.menuBar>ul>li:hover {
+  background-color: #ddd;
+}
+.menuBar>ul>li:last-child {
+  background-color: rgb(65, 130, 206);
+  border-radius: 5px;
+  color: #fff;
+}
+.cartCount {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(107, 204, 241);
+  color: rgb(34, 73, 146);
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 3px;
+}
+.lastAdded {
+  margin-top: 60px;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #ddd;
+  display: flex;
+}
+.card {
+  flex: 1 1 auto;
+  margin:  5px;
+  height: 500px;
+  padding: 3px;
+}
+.container>a {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(92, 92, 92);
+  box-shadow: inset 0px 0px 20px 10px rgba(54, 54, 54, 0.6);
+}
