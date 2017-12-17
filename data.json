@@ -423,7 +423,7 @@
         },
         "use": {
           "amount": 22000,
-          "unit": "kg"
+          "unit": "g CO2"
         }
       }
     ]
