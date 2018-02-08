@@ -13,6 +13,7 @@ There is only one user-story to complete during this iteration, but *do not unde
 During the first week there are two main things you need to do:
 
 A) Design a data-model
+
 B) Wire up the basic architecture needed for the application
 
 ### Designing a data-model
