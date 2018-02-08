@@ -24,10 +24,12 @@ an exact implementation, but instead a user's needs.
 
 You will use these stories to design your data model, and APIs.
 
-You will also receive high-level wireframes
-
 ## Iterations
 
 1. [Viewing sustainable alternatives](./iteration1.md).
 2. [Finding products based on categories](./iteration2.md).
 3. [Google Maps integration](./iteration3.md).
+
+## Design mockups
+
+Refer to the folder `Design mockups` to find mockups of what the application is supposed to look like. One very important thing to note is that as mentioned above *all iterations should be a complete functional application*, so don't start out building the entire user interface. Build "just enough" UI that you will be able to complete the corresponding backend.
